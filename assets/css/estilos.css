@@ -382,3 +382,9 @@ a { color: var(--frambuesa); }
 .proceso__nota { margin: 16px 0 0; color: var(--tinta-suave); font-style: italic; }
 @media (max-width: 700px) { .gami__lista { grid-template-columns: minmax(0, 1fr); } }
 .video--bienvenida { margin: 8px 0 24px; max-width: 68ch; }
+#evidencia-2 .proceso__pasos { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+@media (max-width: 700px) { #evidencia-2 .proceso__pasos { grid-template-columns: minmax(0, 1fr); } }
+.bitacora { margin-top: 20px; display: grid; grid-template-columns: minmax(0, 220px) minmax(0, 1fr); gap: 18px; align-items: center; }
+.bitacora img { border-radius: 10px; border: 1px solid color-mix(in srgb, var(--tinta) 12%, transparent); }
+.bitacora .proceso__nota { margin: 0; }
+@media (max-width: 560px) { .bitacora { grid-template-columns: minmax(0, 1fr); } }

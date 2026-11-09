@@ -1,24 +1,15 @@
 # Portafolio digital – Alicia Alberca
 
-Sitio estático (HTML, CSS y JS). No necesita instalar nada.
+Sitio estático (HTML, CSS y JS). Publicado en https://alicitadigital.github.io/portafolio-alicia/
 
-## Probarlo en tu PC
-Abre `index.html` con doble clic, o en VS Code usa la extensión **Live Server**.
+## Editar
+Todos los textos están en `index.html`. Estilos en `assets/css/estilos.css`.
+Para probar en tu PC: en VS Code, clic derecho en `index.html` → Open with Live Server.
 
-## Publicarlo en GitHub Pages
-1. Crea un repositorio público en GitHub, por ejemplo `portafolio-alicia`.
-2. En la carpeta del proyecto:
-   ```
-   git init
-   git add .
-   git commit -m "Portafolio digital"
-   git branch -M main
-   git remote add origin https://github.com/TU_USUARIO/portafolio-alicia.git
-   git push -u origin main
-   ```
-3. En GitHub: **Settings → Pages → Source: Deploy from a branch → main / (root) → Save**.
-4. En 1–2 minutos queda en `https://TU_USUARIO.github.io/portafolio-alicia/`.
-
-## Antes de entregar
-- Completa la segunda evidencia, las apps y la filosofía educativa en `index.html`.
-- Quita la clase `modo-revision` de `<body>` para ocultar las notas amarillas de borrador.
+## Subir cambios
+```
+git add .
+git commit -m "Describe el cambio"
+git push
+```
+En 1–2 minutos se actualiza la página.

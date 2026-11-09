@@ -11,15 +11,10 @@
 <link rel="stylesheet" href="assets/css/estilos.css">
 </head>
 <!--
-  ============================================================
-  CÓMO EDITAR
-  - Todos los textos están en este archivo, sección por sección.
-  - Las notas amarillas "Borrador" solo se ven mientras <body>
-    tenga la clase "modo-revision". Cuando todo esté listo,
-    borra esa clase y desaparecen.
-  ============================================================
+  CÓMO EDITAR: todos los textos están en este archivo, sección por sección.
+  Después de cambiar algo: git add . / git commit -m "cambio" / git push
 -->
-<body class="modo-revision">
+<body>
 
 <div class="progreso" aria-hidden="true"><span id="barra-progreso"></span></div>
 
@@ -150,7 +145,7 @@
     <ul class="momentos">
       <li class="momento momento--ancha"><button type="button" class="momento__btn" data-grande="assets/img/m-diploma-2022.jpg" data-texto="Primer puesto nacional, Buenas Prácticas Docentes 2022"><img src="assets/img/m-diploma-2022.jpg" alt="Diploma y medalla del primer puesto en el Concurso Nacional de Buenas Prácticas Docentes 2022" loading="lazy"><span class="a-mano">Primer puesto nacional, Buenas Prácticas Docentes 2022</span></button></li>
       <li class="momento momento--alta"><button type="button" class="momento__btn" data-grande="assets/img/m-minedu-ceremonia.jpg" data-texto="Ceremonia de premiación, MINEDU"><img src="assets/img/m-minedu-ceremonia.jpg" alt="Alicia con su diploma y medalla en la ceremonia del Ministerio de Educación" loading="lazy"><span class="a-mano">Ceremonia de premiación, MINEDU</span></button></li>
-      <li class="momento momento--alta"><button type="button" class="momento__btn" data-grande="assets/img/m-ponencia-upao.jpg" data-texto="Ponencia «Innovación pedagógica: de la reflexión a la transformación», Trujillo"><img src="assets/img/m-ponencia-upao.jpg" alt="Alicia exponiendo en el escenario de la UPAO en Trujillo" loading="lazy"><span class="a-mano">Ponencia «Innovación pedagógica: de la reflexión a la transformación», Trujillo</span></button></li>
+      <li class="momento momento--alta"><button type="button" class="momento__btn" data-grande="assets/img/m-ponencia-upao.jpg" data-texto="Ponencia «Innovación pedagógica: de la reflexión a la transformación», Trujillo, 2026"><img src="assets/img/m-ponencia-upao.jpg" alt="Alicia exponiendo en el escenario de la UPAO en Trujillo" loading="lazy"><span class="a-mano">Ponencia «Innovación pedagógica: de la reflexión a la transformación», Trujillo, 2026</span></button></li>
       <li class="momento momento--ancha"><button type="button" class="momento__btn" data-grande="assets/img/m-congreso-innovacion.jpg" data-texto="Taller de prompts de IA, II Congreso Nacional de Profesores de Innovación"><img src="assets/img/m-congreso-innovacion.jpg" alt="Alicia con docentes en el II Congreso Nacional de Profesores de Innovación" loading="lazy"><span class="a-mano">Taller de prompts de IA, II Congreso Nacional de Profesores de Innovación</span></button></li>
       <li class="momento momento--ancha"><button type="button" class="momento__btn" data-grande="assets/img/m-volvermejor.jpg" data-texto="Reconocimiento #VolverMejor, febrero de 2023"><img src="assets/img/m-volvermejor.jpg" alt="Alicia celebrando el reconocimiento #VolverMejor" loading="lazy"><span class="a-mano">Reconocimiento #VolverMejor, febrero de 2023</span></button></li>
       <li class="momento momento--ancha"><button type="button" class="momento__btn" data-grande="assets/img/m-pasantia.jpg" data-texto="Pasantía de Buenas Prácticas con colegas"><img src="assets/img/m-pasantia.jpg" alt="Docentes de Fe y Alegría 34 con los libros de Buenas Prácticas Docentes" loading="lazy"><span class="a-mano">Pasantía de Buenas Prácticas con colegas</span></button></li>
@@ -241,7 +236,6 @@
 
       <div class="reflexion">
         <h4>Reflexión sobre la práctica</h4>
-        <p class="nota-borrador">Borrador basado en tu Actividad 1. Léelo y cambia lo que no suene a ti.</p>
         <div class="reflexion__pregunta">
           <p class="a-mano">¿Qué aprendí haciendo esta actividad?</p>
           <p>Aprendí que la inteligencia artificial agiliza la creación de recursos visuales cuando se le dan instrucciones claras. Separar el trabajo en dos prompts, uno para el contenido y otro para el diseño, me permitió validar primero la calidad pedagógica y luego la presentación. También aprendí a seguir las fases de un videotutorial: planificar, grabar, producir y publicar.</p>
@@ -271,7 +265,10 @@
         </a>
         <div class="enlaces">
           <a class="boton" href="https://alicitadigital.wixsite.com/el-taller-detenido" target="_blank" rel="noopener">Entrar al taller</a>
-          <a class="boton boton--claro" href="https://scratch.mit.edu/projects/1394852462" target="_blank" rel="noopener">Ver el desafío en Scratch</a>
+          <a class="boton boton--claro" href="https://alicitadigital.wixsite.com/el-taller-detenido/retos" target="_blank" rel="noopener">Misión 1: Tetris</a>
+          <a class="boton boton--claro" href="https://www.youtube.com/watch?v=goiDaxOOnqA" target="_blank" rel="noopener">Misión 2: Video</a>
+          <a class="boton boton--claro" href="https://scratch.mit.edu/projects/1394852462" target="_blank" rel="noopener">Misión 3: Scratch</a>
+          <a class="boton boton--claro" href="https://alicitadigital.wixsite.com/el-taller-detenido/portfolio" target="_blank" rel="noopener">Final: Reto logrado</a>
         </div>
       </div>
 
@@ -308,11 +305,6 @@
         <h4>Las tres misiones</h4>
         <ol class="proceso__pasos">
           <li>
-            <img src="assets/img/ev2-piezas.jpg" alt="Sombras de las tres piezas faltantes" loading="lazy">
-            <strong>Observar la sombra</strong>
-            <span>Cada misión empieza con la silueta de una pieza perdida y un relato con pistas.</span>
-          </li>
-          <li>
             <img src="assets/img/ev2-mision1.jpg" alt="Juego tipo Tetris que revela el engranaje corona" loading="lazy">
             <strong>Misión 1: el engranaje corona</strong>
             <span>Un juego tipo Tetris: al llegar a 670 puntos se revela la pieza y su función.</span>
@@ -328,12 +320,14 @@
             <span>La última pieza se descubre con un desafío programado en Scratch.</span>
           </li>
         </ol>
-        <p class="proceso__nota">En cada misión los estudiantes registran la pieza encontrada en una bitácora digital hecha con Google Forms.</p>
+        <div class="bitacora">
+          <img src="assets/img/ev2-bitacora.jpg" alt="Bitácora digital en Google Forms donde el estudiante registra la pieza encontrada" loading="lazy">
+          <p class="proceso__nota">En cada misión los estudiantes registran la pieza encontrada en una bitácora digital hecha con Google Forms.</p>
+        </div>
       </div>
 
       <div class="reflexion">
         <h4>Reflexión sobre la práctica</h4>
-        <p class="nota-borrador">Borrador. Cámbialo con tus palabras: qué aprendiste, qué fue difícil y cómo lo usarás.</p>
         <div class="reflexion__pregunta">
           <p class="a-mano">¿Qué aprendí haciendo esta actividad?</p>
           <p>Aprendí la diferencia entre poner juegos en una clase y gamificarla. Lo que da unidad a la experiencia es la narrativa: el apagón y el Gremio de Constructores le dan sentido a cada reto. También aprendí a combinar dinámicas, mecánicas y componentes para que cada misión acerque a los estudiantes a un objetivo de aprendizaje.</p>
@@ -356,7 +350,6 @@
   <div class="contenedor">
     <h2 class="titulo">Habilidades digitales</h2>
     <p class="intro-seccion">Las aplicaciones que uso y fortalecí durante el curso, agrupadas según para qué me sirven en el proceso de aprendizaje.</p>
-    <p class="nota-borrador">Revisa que las descripciones coincidan con cómo usas cada app.</p>
 
     <div class="habilidades">
       <div class="grupo">
@@ -416,9 +409,9 @@
 <section id="trabajos" class="seccion">
   <div class="contenedor">
     <h2 class="titulo">Más de mi trabajo</h2>
-    <p class="intro-seccion">Una selección de ponencias, recursos y proyectos que he creado fuera de esta asignatura.</p>
+    <p class="intro-seccion">Una selección de ponencias, recursos y proyectos de mi trayectoria docente.</p>
     <ul class="trabajos">
-      <li><a href="https://www.youtube.com/live/g7RXvDYgTKk" target="_blank" rel="noopener"><span class="trabajos__tipo">Ponencia</span><strong>Ponencia en Trujillo</strong><span>Transmisión en vivo</span></a></li>
+      <li><a href="https://www.youtube.com/live/g7RXvDYgTKk" target="_blank" rel="noopener"><span class="trabajos__tipo">Ponencia</span><strong>Ponencia en Trujillo</strong><span>Transmisión en vivo, 15 y 16 de octubre de 2026</span></a></li>
       <li><a href="https://www.youtube.com/watch?v=Wb-aN9Px9Xg" target="_blank" rel="noopener"><span class="trabajos__tipo">Entrevista</span><strong>La IA como aliada del pensamiento crítico en el aula</strong><span>Programa #MentesAbiertas, 2025</span></a></li>
       <li><a href="https://www.youtube.com/watch?v=CB_L29Jdrmc" target="_blank" rel="noopener"><span class="trabajos__tipo">Video</span><strong>Buenas Prácticas en Fe y Alegría 34</strong><span>Experiencia ganadora 2022</span></a></li>
       <li><a href="https://scratch.mit.edu/projects/1394852462" target="_blank" rel="noopener"><span class="trabajos__tipo">Scratch</span><strong>Los autos también contaminan</strong><span>Proyecto de programación</span></a></li>
@@ -434,7 +427,6 @@
 <section id="filosofia" class="seccion">
   <div class="contenedor contenedor--angosto">
     <h2 class="titulo">Filosofía educativa</h2>
-    <p class="nota-borrador">Borrador a partir de tu perfil. Este texto debe sonar 100 % a ti: cámbialo con tus propias palabras.</p>
     <blockquote class="cita">
       <p>Aprender es construir con otros. La tecnología vale cuando abre puertas para que todos aprendan.</p>
     </blockquote>
