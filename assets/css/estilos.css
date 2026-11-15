@@ -388,3 +388,18 @@ a { color: var(--frambuesa); }
 .bitacora img { border-radius: 10px; border: 1px solid color-mix(in srgb, var(--tinta) 12%, transparent); }
 .bitacora .proceso__nota { margin: 0; }
 @media (max-width: 560px) { .bitacora { grid-template-columns: minmax(0, 1fr); } }
+
+/* necesidad educativa y evidencia 3 */
+.necesidad { margin: 0 0 20px; padding: 16px 18px; border-radius: 12px; background: var(--papel-2); border-left: 4px solid var(--frambuesa); }
+.necesidad h4 { font-family: var(--f-display); font-weight: 600; font-size: 1.2rem; margin: 0 0 6px; }
+.necesidad p { margin: 0; line-height: 1.6; font-size: .98rem; }
+.datos div { grid-template-columns: 128px minmax(0, 1fr); }
+.capturas-app { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; max-width: 460px; }
+.capturas-app figure { margin: 0; }
+.capturas-app img { border-radius: 14px; border: 1px solid color-mix(in srgb, var(--tinta) 12%, transparent); }
+.capturas-app figcaption { font-size: .88rem; color: var(--tinta-suave); margin-top: 6px; text-align: center; }
+.bloques { margin: 0; display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); gap: 20px; align-items: center; }
+.bloques img { border-radius: 10px; border: 1px solid color-mix(in srgb, var(--tinta) 12%, transparent); }
+.bloques figcaption { color: var(--tinta-suave); font-style: italic; }
+@media (max-width: 700px) { .bloques { grid-template-columns: minmax(0, 1fr); } }
+@media (max-width: 520px) { .datos div { grid-template-columns: minmax(0, 1fr); gap: 0; } }
